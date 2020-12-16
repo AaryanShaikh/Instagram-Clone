@@ -1,0 +1,88 @@
+body{
+	background: #333;
+}
+img{
+		height: 100px;
+		width: 280px;
+	}
+	td{
+		padding: 10px;
+	}
+table{
+	margin-top: 100px;
+}	
+body{
+	background: #333;
+}
+#main{
+	display: flex;
+	position: absolute;
+	letter-spacing: 10px;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+	margin-left: 450px;
+	margin-top: -100px;
+}
+@keyframes doit{
+	0%{
+		filter: blur(0px);
+		transform: scale(1);
+		opacity: 1;
+	}
+	60%{
+		filter: blur(0px);
+		transform: scale(1);
+		opacity: 1;
+	}
+	80%{
+		filter: blur(20px);
+		transform: scale(2);
+		opacity: 0;
+	}
+	100%{
+		filter: blur(0px);
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+#i{
+	animation: doit 3s linear infinite;
+}
+#ii{
+	animation: doit 3s linear infinite;
+	animation-delay: .2s;
+}
+#iii{
+	animation: doit 3s linear infinite;
+	animation-delay: .4s;
+}
+#iv{
+	animation: doit 3s linear infinite;
+	animation-delay: .6s;
+}
+#v{
+	animation: doit 3s linear infinite;
+	animation-delay: .8s;
+}
+#vi{
+	animation: doit 3s linear infinite;
+	animation-delay: 1s;
+}
+#vii{
+	animation: doit 3s linear infinite;
+	animation-delay: 1.2s;
+}
+input[type=button]{
+	background: #333;
+	border: 3px solid white;
+	color: white;
+	transition: 1s linear;
+}
+input[type=button]:hover{
+	background: #333;
+	border: 3px solid white;
+	border-radius: 10px;
+	color: yellow;
+	transition: .5s linear;
+}

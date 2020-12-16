@@ -1,0 +1,36 @@
+#head{
+	border: 1px solid transparent;
+	border-radius: 100px;
+	height: 70px;
+	width: 700px;
+	margin-left: 400px;
+	background: #95b1d6;
+}
+h1{
+	height: 10px;
+}
+table{
+	margin-left: 400px;
+	margin-top: 20px;
+	width: 50%;
+	text-align: left;
+	border: 1px solid black;
+	box-shadow: 10px 10px 15px grey;
+	background: white;
+}
+#points{
+	text-align: center;
+	margin-top: 10px;
+}
+td{
+	width: 50%;
+}
+tr{
+	height: 50px;
+	text-align: center;
+	border: 1px solid transparent;
+}
+tr:nth-child(even) {background-color: #d3dfef;}
+body{
+	background: #d1eaff;
+}
