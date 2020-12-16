@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100vh;
+	height: 100vh;
+	overflow: hidden;/* btn can move anywhere */
+	background: url('bg.gif');
+	background-size: cover;
+}
+#evilbtn{
+	position: absolute;
+	top: 35%;
+	left: 39%;
+	white-space: nowrap;
+	font-size: 2rem;
+	border: 1px solid transparent;
+	color: red;
+	background: transparent;
+	animation: doit 2s ease infinite;
+	animation-direction: alternate-reverse;
+} 
+@keyframes doit{
+	0%{
+		text-shadow: 0px 0px 5px red;
+	}
+	40%{
+		text-shadow: 0px 0px 5px red,
+					 0px 0px 5px red;
+	}
+	80%{
+		text-shadow: 0px 0px 5px red,
+					 0px 0px 5px red,
+					 0px 0px 5px red;
+	}
+	100%{
+		text-shadow: 0px 0px 5px red;	
+	}
+}
