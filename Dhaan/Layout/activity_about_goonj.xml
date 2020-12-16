@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_goonj"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/abt_us_scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:text="About Us"
+                android:textColor="#F50707"
+                android:id="@+id/abt_us_txtview"
+                android:background="@drawable/round_corners"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/goonj_logo"
+                android:id="@+id/goonj_logo"
+                android:clickable="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/round_corners"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" Goonj is a non-governmental organisation headquartered in Delhi, India which undertakes disaster relief, humanitarian aid and community development in parts of 23 states across India.                                                                                   Goonj focuses on clothing as a basic but unaddressed need.
+It was founded in 1999 by Anshu Gupta. For his work with Goonj, he was awarded the Ramon Magsaysay Award in 2015.In 2012, he was named India’s Social Entrepreneur of the Year 2012 by Schwab Foundation, a sister organization of World Economic Forum
+                 "
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Knowning Goonj"
+                android:textColor="#F50707"
+                android:id="@+id/knowning_goonj_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Initiatives"
+                android:textColor="#F50707"
+                android:padding="10dp"
+                android:id="@+id/initiatives_goonj_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Governing Body"
+                android:textColor="#F50707"
+                android:padding="10dp"
+                android:id="@+id/founders_goonj_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Offices"
+                android:padding="10dp"
+                android:textColor="#F50707"
+                android:id="@+id/offices_goonj_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Dropping Centers"
+                android:textColor="#F50707"
+                android:padding="10dp"
+                android:id="@+id/dropping_center_goonj_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Stories"
+                android:padding="10dp"
+                android:textColor="#F50707"
+                android:id="@+id/stories_goonj_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Awards and Recognition"
+                android:textColor="#F50707"
+                android:padding="10dp"
+                android:id="@+id/awards_goonj_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="FAQ's"
+                android:padding="10dp"
+                android:textColor="#F50707"
+                android:id="@+id/faqs_goonj_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
