@@ -1,0 +1,175 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url('mainBG.jpg');
+	background-size: cover;
+}
+#screen{
+	position: relative;
+	height: 322px;
+	width: 640px;
+	border: 1px solid black;
+	left: 25%;
+	top: 50px;
+	background: url('bg.gif');
+	overflow: hidden;
+}
+#userH{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border: 1px solid transparent;
+	left: -100px;
+	top: 180px;
+}
+#ust{
+	left: 0px;
+	transition: .5s ease-in;	
+}
+#upr{
+	left: 0px;
+	transition: .5s ease-in;	
+}
+#usc{
+	left: 0px;
+	transition: .5s ease-in;	
+}
+#cpr{
+	left: 0px;
+	transition: .5s ease-in;	
+}
+#csc{
+	left: 0px;
+	transition: .5s ease-in;	
+}
+#cst{
+	left: 0px;
+	transition: .5s ease-in;	
+}
+.leftFace{
+	transform: rotateY(180deg);
+	transition: 1s;
+}
+#userH img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#compH img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#compH{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border: 1px solid transparent;
+	right: -100px;
+	top: 180px;
+}
+#winl{
+	position: absolute;
+	height: 150px;
+	width: 200px;
+	border: 1px solid transparent;
+	left: 35%;
+	top: -150px;	
+}
+#winl img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#dr{
+	top: 0;
+	transition: .5s ease-in;
+	transition-delay: .5s;
+}
+#lo{
+	top: 0;
+	transition: .5s ease-in;
+	transition-delay: .5s;
+}
+#wi{
+	top: 0;
+	transition: .5s ease-in;
+	transition-delay: .5s;
+}
+#ctrl{
+	position: relative;
+	top: 60px;
+	left: 35%;
+	width: 500px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+#ctrlImg{
+	position: relative;
+	top: 60px;
+	width: 500px;
+	left: 35%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+#ctrlImg img{
+	height: 50px;
+	width: 50px;
+}
+#userC{
+	position: relative;
+	left : 40%;
+	top: 80px;
+	height: 50px;
+	border-radius: 40px;
+	width: 100px;
+	border: none;
+	outline: none;
+	transition: .5s;
+	background: purple;
+	border: 5px solid purple;
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+}
+#userC:hover{
+	background: white;
+	box-shadow: 0px 0px 8px black;
+	color: black;
+}
+#userR{
+	position: relative;
+	left : 45%;
+	top: 80px;
+	height: 50px;
+	border-radius: 40px;
+	width: 100px;
+	border: none;
+	outline: none;
+	transition: .5s;
+	background: purple;
+	border: 5px solid purple;
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+}
+#userR:hover{
+	background: white;
+	box-shadow: 0px 0px 8px black;
+	color: black;
+}
+#ress{
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 800px;
+	left: 25%;
+	top: 70px;
+	font-size: 2em;
+	grid-gap: 50px;
+	color: white;
+	font-weight: 700;
+	font-family: Comic Sans MS;
+	text-shadow: 4px 4px 5px black;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script defer type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="screen">
+		<div id="winl">
+			<img id="wi" src="win.png">
+			<img id="lo" src="lose.png">
+			<img id="dr" src="draw.png">
+		</div>
+		<div id="userH">
+			<img id="ust" src="stone.png" class="leftFace">
+			<img id="upr" src="paper.png">
+			<img id="usc" src="sci.png">
+		</div>
+		<div id="compH">
+			<img id="cst" src="stone.png">
+			<img id="cpr" src="paper.png" class="leftFace">
+			<img id="csc" src="sci.png" class="leftFace">
+		</div>
+	</div>
+	<div id="ctrlImg">
+		<img src="stone.png" class="leftFace">
+		<img src="paper.png">
+		<img src="sci.png">
+	</div>
+	<div id="ctrl">
+		<input type="radio" id="stone" name="choice">
+		<input type="radio" id="paper" name="choice">
+		<input type="radio" id="scissor" name="choice">
+	</div>
+	<button id="userC">Select</button>
+	<button id="userR">Again</button>
+	<div id="ress">
+		<p>User Points:<span id="userP">0</span></p>
+		<p>Computer Points:<span id="compP">0</span></p>
+	</div>
+</body>
+</html>
