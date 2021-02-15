@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toyforjoy">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/abt_us_scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:text="Toy For Joy"
+                android:textColor="#F50707"
+                android:id="@+id/abt_us_txtview"
+                android:background="@drawable/round_corners"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@drawable/toy_for_joy_two"
+                android:id="@+id/toyforjoy_iv"
+                android:clickable="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/round_corners"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toy Joy Drive"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Join the Eureka Toy Joy Campaign and bring a smile to a child's face. Who can forget the simple joys of our childhood - playing with toys! Be it a board game, a miniature kitchen set or a simple plastic doll, toys have given us much pleasure, not to mention their contribution to our cognitive and emotional development.
+Children in tribal villages have no learning materials , resources or toys. Noticing 1-year old Sakthivel playing with a pet rat and using it as a pull–along toy, our volunteers started a campaign to collect and donate toys for children, particularly in tribal villages."
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Donate Material"
+                android:textColor="#F50707"
+                android:id="@+id/donate_material_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Donate Money -Offline"
+                android:textColor="#F50707"
+                android:padding="10dp"
+                android:id="@+id/donate_money_offline_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Donate Money -Paytm"
+                android:textColor="#F50707"
+                android:padding="10dp"
+                android:id="@+id/donate_money_paytm_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

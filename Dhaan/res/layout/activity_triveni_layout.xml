@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".triveni_layout">
+    <include
+        layout="@layout/nog_onclick_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_onclick"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_onclick"
+        android:scrollbars="none"
+        android:background="#fff"
+        android:id="@+id/main_scroll">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroll_main2"
+            android:background="#fff"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_corners"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/triveni_mahila_mandal"
+                    android:layout_gravity="center"
+                    android:layout_margin="6dp">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Triveni Mahila Mandal"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Services"
+                android:layout_margin="10dp"
+                android:textSize="16sp"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#fff"
+                android:id="@+id/services_scroll"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/horizontal_scroll"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pic1"
+                        android:src="@drawable/triveni_one"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pic2"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/triveni_two"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pic3"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/triveni_three"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:id="@+id/pic4"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/triveni_four"
+                        android:clickable="true"
+                        />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <!--center scroll-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/center_scroll"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address :"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:textColor="#000"
+                    android:text="Sethu Centre For Child Development and Family Guidance."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:textColor="#000"
+                    android:text="House No. 640/2, Bhutki Waddo, VP Succorro, Porvorim,Bardez – Goa 403501, India"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone No. :"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:textColor="#000"
+                    android:text="+917720013749"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@drawable/round_corners"
+                    android:text="Donate"
+                    android:id="@+id/donate_btn"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:textColor="#C90A0A"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

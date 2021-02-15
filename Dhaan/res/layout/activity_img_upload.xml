@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imgUpload">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        android:background="@drawable/msg_gr">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dhaan"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/toolbar_back"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:id="@+id/toolbar_textview"/>
+    </Toolbar>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_gr"
+        android:text="Choose File"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/btn_choose"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="317dp"
+        android:layout_height="278dp"
+        android:layout_below="@+id/btn_choose"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgview"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="upload"
+        android:layout_below="@+id/imgview"
+        android:background="@drawable/bg_btn"
+        android:textColor="#000"
+        android:id="@+id/btn_upload"/>
+
+</RelativeLayout>

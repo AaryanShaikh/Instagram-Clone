@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodbank">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/abt_us_scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:text="Food Drive"
+                android:textColor="#F50707"
+                android:id="@+id/food_drive_tv"
+                android:background="@drawable/round_corners"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="320dp"
+                android:src="@drawable/foodbank_two"
+                android:id="@+id/foodbank_iv"
+                android:clickable="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/round_corners"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food bank"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="A foodbank campaing distributes food to those who have difficulty purchasing enough to avoid hunger.
+Some food banks operate on the front line model, giving out food directly to the hungry. Others operate on the warehouse model, supplying food to intermediaries like food pantries, soup kitchens and other front-line organisations"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Donate Food"
+                android:textColor="#F50707"
+                android:id="@+id/donate_food_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Donate Money -Offline"
+                android:textColor="#F50707"
+                android:padding="10dp"
+                android:id="@+id/donate_money_offline_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Donate Money -Paytm"
+                android:textColor="#F50707"
+                android:padding="10dp"
+                android:id="@+id/donate_money_paytm_tv"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/round_corners"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
