@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778133359814",
+    "firebase_url": "https://dhaanchat-b4795.firebaseio.com",
+    "project_id": "dhaanchat-b4795",
+    "storage_bucket": "dhaanchat-b4795.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778133359814:android:3a08e898506dca3a2a1bc7",
+        "android_client_info": {
+          "package_name": "com.koddev.dhaanChat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778133359814-qi426q3vo3kl59m09oeflved5jv4knnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koddev.dhaanChat",
+            "certificate_hash": "a32a71890663d6eeb895e6f07c06b289181e5abc"
+          }
+        },
+        {
+          "client_id": "778133359814-kscfj4ekv0a681vco73af7bir9o6i4ll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8qN8YKKzrmp6Anmmc3X1cxaKDges6AcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778133359814-kscfj4ekv0a681vco73af7bir9o6i4ll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
