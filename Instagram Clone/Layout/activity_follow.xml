@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".follow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="590dp"
+            android:background="@drawable/home1"
+            android:id="@+id/home1"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_marginTop="590dp"
+            android:background="@drawable/search"
+            android:id="@+id/search"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginTop="590dp"
+            android:background="@drawable/add"
+            android:id="@+id/add"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="590dp"
+            android:background="@drawable/heart1"
+            android:id="@+id/heart"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="590dp"
+            android:background="@drawable/profile"
+            android:id="@+id/profile1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/follow"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/you"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:layout_marginTop="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uimg1"
+            android:layout_marginTop="-50dp"/>
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uimg2"
+                android:layout_marginTop="-90dp"/>
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uimg3"
+                android:layout_marginTop="-50dp"/>
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uimg4"
+                android:layout_marginTop="-70dp"/>
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/uimg5"
+                android:layout_marginTop="-70dp"/>
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="510dp"
+                android:src="@drawable/uimg6"
+                android:layout_marginTop="-300dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
