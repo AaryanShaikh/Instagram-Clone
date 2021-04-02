@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Password Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="inputBx">
+		<h2>Random Password Generator</h2>
+		<input type="text" name="" placeholder="Create Password" id="pass" readonly>
+		<img src="copy.png" class="copy" onclick="copyPass()">
+		<div class="alertbx"></div>
+		<div id="btn" onclick="getPass()">Generate!</div>
+	</div>
+	<script type="text/javascript">
+		function getPass() {
+			var chars = "123b4567890qwertyuioplkjhgfdaszxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM!@#$%^&*()_-+={[}]:;|<>?.,/"
+			var pass = "";
+			for (var i = 0; i < 16; i++) {
+				var rand = Math.floor(Math.random() * chars.length);
+				pass += chars.substring(rand,rand+1);
+			}
+			document.getElementById('pass').value = pass;
+			alertbx.innerHTML = pass+"<br>Password copied successfully!";
+		}
+		var alertbx = document.querySelector('.alertbx');
+		function copyPass() {
+			var copyText = document.getElementById("pass");
+			copyText.select();
+			copyText.setSelectionRange(0,9999);
+			document.execCommand("copy");
+			alertbx.classList.toggle('active');
+			setTimeout(function(){
+				alertbx.classList.toggle('active');
+			},2000)
+		}
+	</script>
+</body>
+</html>
