@@ -1,0 +1,104 @@
+:root {
+  --blur: 0px;
+  --brightness: 100%;
+  --contrast: 140%;
+  --grayscale: 0%;
+  --hue-rotate: 0deg;
+  --invert: 0%;
+  --opacity: 100%;
+  --saturate: 1;
+  --sepia: 50%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url('bg.jpg');
+	background-size: cover;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+input[type="file"] {
+    display: none;
+}
+.upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+}
+.btn{
+	-webkit-appearance: none;
+	outline: none;
+	border: none;
+	height: 30px;
+	width: 100px;
+	border-radius: 100px;
+}
+.container{
+	position: relative;
+	height: 96vh;
+	width: 100vw;
+}
+.container #img{
+	position: absolute;
+	height: 600px;
+	width: 600px;
+	right: 24%;
+	top: 2%;
+	transition: 1s;
+	box-shadow: 10px 10px 14px rgba(0, 0, 0, .7),
+	-10px -10px 14px rgba(0, 0, 0, .7);
+	filter: blur(var(--blur)) brightness(var(--brightness)) contrast(var(--contrast)) grayscale(var(--grayscale)) hue-rotate(var(--hue-rotate)) invert(var(--invert)) opacity(var(--opacity)) saturate(var(--saturate)) sepia(var(--sepia));
+}
+.container .controls{
+	position: absolute;
+	top: 1%;
+	height: 93vh;
+	width: 50vh;
+	left: 4%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 25px;
+	box-shadow: 10px 10px 14px rgba(0, 0, 0, .7),
+	-10px -10px 14px rgba(0, 0, 0, .7);
+	backdrop-filter: blur(4px);
+}
+.container .controls label,
+.container .controls input{
+	margin-top: 15px;
+	color: white;
+}
+.container .controls input[type="range"]{
+	width: 240px;
+}
+.container .presets{
+	position: absolute;
+	height: 93vh;
+	width: 18vw;
+	right: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 25px;
+	box-shadow: 10px 10px 14px rgba(0, 0, 0, .7),
+	-10px -10px 14px rgba(0, 0, 0, .7);
+	backdrop-filter: blur(4px);
+}
+.container .presets img{
+	height: 160px;
+	width: 160px;
+	margin-top: 30px;
+}
+.filter1 {
+  filter: contrast(90%) brightness(110%) saturate(150%) hue-rotate(280deg);
+}
+.filter2{
+	filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+}
+.filter3{
+	filter: contrast(140%) sepia(100%);
+}
